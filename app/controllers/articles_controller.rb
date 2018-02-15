@@ -1,4 +1,9 @@
+# Veronica Vazquez
+# Ruby on Rails 
+# CRUD of an article
+ 
 class ArticlesController < ApplicationController
+    
     def index 
         @articles = Article.all 
     end 
