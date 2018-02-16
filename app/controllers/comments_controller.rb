@@ -4,7 +4,7 @@
 
 class CommentsController < ApplicationController
     def create
-
+        
         # get an article
         @article = Article.find( params[:article_id])
 

@@ -1,5 +1,8 @@
 <h1>New Article</h1>
+<hr>
 
 <%= render 'form' %>
 
-<%= link_to 'Back', articles_path %>
+<footer class="masterform-footer fixed-bottom px-3 py-3">
+    <%= link_to 'Back', articles_path, class: "btn btn-secondary btn-sm float-lg-right" %>    
+</footer>
